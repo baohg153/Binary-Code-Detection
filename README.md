@@ -26,7 +26,8 @@ Binary-Code-Detection/
 ├── notebooks/                  # Notebooks  
 │   ├── data_eda.ipynb          # Notebook for dataset EDA
 │   ├── features.ipynb          # Notebook for features extraction and analysis
-│   └── model.ipynb             # Notebook for evaluating different models on selected features
+│   ├── model.ipynb             # Notebook for testing different models on features
+│   └── best_submission.ipynb   # Notebook giving the best submission score
 └── README.md
 ```
 
@@ -51,6 +52,18 @@ The parquet files in data/ can be downloaded at https://www.kaggle.com/competiti
     + Extreme Gradient Boosting.
     + Categorical Boosting.
     + Light Gradient Boosting Machine
+
+# Best result
+The best result achieved on the test set:
+- Macro-average F1 score: 0.69389
+
+**Selected features:** 
+- Whitespaces ratio.
+- Paragraph's lines ratio.
+- Paragraph's spaces ratio.
+- Comment ratio.
+
+**Selected model:** LightGBM.
 
 ## Authors
 - [Huynh Gia Bao](https://github.com/baohg153)
