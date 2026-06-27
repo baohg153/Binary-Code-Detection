@@ -1,5 +1,5 @@
 # Binary-Code-Detection
-This project is developed for the SemEval 2026 Task 13 - Subtask A competition, which aims to detect whether a source code snippet is human-written or AI-generated.
+This project is developed for the SemEval 2026 Task 13 - Subtask A competition, which aims to detect whether a source code snippet is human-written or AI-generated under an Out-Of-Distribution setting.
 
 ## Overview
 Our approach extracts lightweight style features and evaluates them on different machine learning models. We also apply the Adaptive Thresholding technique to improve model performance.
