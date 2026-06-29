@@ -27,7 +27,8 @@ Binary-Code-Detection/
 │   ├── data_eda.ipynb          # Notebook for dataset EDA
 │   ├── features.ipynb          # Notebook for features extraction and analysis
 │   ├── model.ipynb             # Notebook for testing different models on features
-│   └── best_submission.ipynb   # Notebook giving the best submission score
+│   ├── submission.ipynb        # Notebook giving the best submission score
+│   └── submission.csv          # Predicted labels for submission
 └── README.md
 ```
 
@@ -55,7 +56,7 @@ The parquet files in data/ can be downloaded at https://www.kaggle.com/competiti
 
 # Best result
 The best result achieved on the test set:
-- Macro-average F1 score: 0.69389
+- Macro-average F1 score: 0.69533
 
 **Selected features:** 
 - Whitespaces ratio.
